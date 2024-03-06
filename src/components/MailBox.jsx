@@ -13,3 +13,4 @@ const MailBox = ({ boxTitle, mailBoxCount = 0 }) => {
 };
 
 export default MailBox;
+
