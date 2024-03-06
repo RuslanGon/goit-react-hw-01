@@ -2,7 +2,7 @@
 import MailBox from "./components/MailBox";
 
 const meesExpress = [
-  {id: "1", usermail: "user@example.com"},
+  {id: "1", usermail: "misha@example.com"},
   {id: "2", usermail: "merry@example.com"},
   {id: "3", usermail: "alex@example.com"}
 ];
@@ -16,7 +16,8 @@ const novaPoshta = [
 const ukrPoshta = [
   {id: "111", usermail: "marina@example.com"},
   {id: "222", usermail: "ola@example.com"},
-  {id: "333", usermail: "sereja@example.com"}
+  {id: "333", usermail: "sereja@example.com"},
+  {id: "444", usermail: "oksana@example.com"}
 ];
 
 
