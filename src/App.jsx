@@ -23,9 +23,9 @@ const ukrPoshta = [
 function App() {
   return (
     <div>
-      <MailBox boxTitle="Meest Expres" mailBoxCount={5} />
-      <MailBox boxTitle="Nova Poshta" mailBoxCount={3} />
-      <MailBox boxTitle="UKR poshta" />
+      <MailBox boxUsers={meesExpress} boxTitle="Meest Expres" mailBoxCount={5} />
+      <MailBox boxUsers={novaPoshta} boxTitle="Nova Poshta" mailBoxCount={3} />
+      <MailBox boxUsers={ukrPoshta} boxTitle="UKR poshta" />
     </div>
   );
 }
