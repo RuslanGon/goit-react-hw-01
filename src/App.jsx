@@ -1,4 +1,4 @@
-import "./App.css";
+
 import MailBox from "./components/MailBox";
 
 function App() {
@@ -6,7 +6,9 @@ function App() {
     <div className="app-container">
       <h1>Vite + React</h1>
       <p>Click on the Vite and React logos to learn more</p>
-      <MailBox />
+      <MailBox boxTitle="Meest Expres" mailBoxCount={5} />
+      <MailBox boxTitle="Nova Poshta" mailBoxCount={3} />
+      <MailBox boxTitle="UKR poshta" />
     </div>
   );
 }
